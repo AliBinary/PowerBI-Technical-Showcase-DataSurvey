@@ -1,40 +1,43 @@
 # 🚀 Power BI Project: Data Professional Survey Analysis
 
 ## 📌 Project Overview
-This project serves as a technical showcase of my **Power BI** skills, focusing on transforming raw, unorganized survey data into a professional analytical dashboard. The primary goal was to master the end-to-end BI process: Data Cleaning, Modeling, and Visualization.
+This project is a technical demonstration of end-to-end data analysis. The focus was on taking a raw, messy survey dataset and performing extensive **ETL (Extract, Transform, Load)** to build a professional-grade dashboard.
 
 ---
 
 ## 🖼️ Dashboard Preview
-The final report provides an interactive experience to explore salary trends and job satisfaction across the data industry.
+The final report features dynamic filtering and KPI tracking for a global view of the data industry.
 
-![Main Dashboard](./Screenshots/main_report.png)
-*Figure 1: Final Interactive Dashboard*
+![Main Dashboard](./Screenshots and Outputs/main_report.png)
+*Figure 1: Final Interactive Dashboard showing global career insights.*
 
 ---
 
 ## 🛠️ Technical Deep Dive
 
-### 1. Data Transformation (Table View & ETL)
-One of the core challenges was handling "messy" survey data. In the **Table View**, I focused on:
-* **Cleaning:** Standardizing inconsistent text entries in Job Titles and Industries.
-* **Formatting:** Converting text-based salary ranges into numerical values for analysis.
-* **Quality Control:** Handling null values and ensuring data integrity across 600+ records.
+### 1. Data Cleaning & Refinement (The Power Query Stage)
+The raw survey data contained many inconsistencies. I performed the following refinements to ensure data quality:
+* **Standardizing Columns:** Fixed inconsistent naming in "Job Titles" and "Industries" (e.g., merging similar "Other" categories).
+* **Salary Normalization:** Transformed text-based ranges (like "$100k-125k") into clean, numerical formats for accurate calculation.
+* **Geospatial Correction:** Cleaned country names to ensure 100% accuracy in map visualizations.
+* **Handling Nulls:** Applied logic to manage missing values without compromising the integrity of the survey results.
 
-![Data Table View](./Screenshots/table_view.png)
-*Figure 2: Data cleaning and transformation results in Table View*
+![Data Table View](./Screenshots and Outputs/table_view.png)
+*Figure 2: Table View showing the cleaned and structured data after transformation.*
 
-### 2. Key Learning Outcomes
-* **DAX Implementation:** Developed custom measures for calculating weighted happiness scores.
-* **Data Modeling:** Built a clean structure to support dynamic filtering by Country and Title.
-* **UI/UX:** Focused on creating a clean, user-friendly interface with intuitive navigation.
+### 2. Modeling & Analytics
+* **DAX Measures:** Developed custom measures to calculate average satisfaction scores and respondent distributions.
+* **Interactivity:** Integrated slicers and bookmarks to allow users to pivot between different job roles and experience levels.
 
-## 📂 Project Files
-* `Final Project.pbix`: The complete Power BI file.
-* `Data/`: The raw survey dataset (CSV).
+## 📂 Project Structure
+* `Final Project.pbix`: The complete Power BI project file (including Power Query steps).
+* `Data/`: The original and refined survey dataset.
+* `Screenshots/`: Visual documentation of the project.
 
-## 🚀 Quick Start
-Download the `.pbix` file and open it with **Power BI Desktop** to explore the data model and DAX formulas.
+## 🚀 How to Explore
+1. Clone the repo.
+2. Open `Final Project.pbix` in **Power BI Desktop**.
+3. Go to the **Transform Data** section to see the specific cleaning steps applied to each column.
 
 ---
-**Developed by:** [Your Name]
+**Developed by:** AliBinary
