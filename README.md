@@ -32,7 +32,7 @@ The raw survey data contained many inconsistencies. I performed the following re
 ## 📂 Project Structure
 * `Final Project.pbix`: The complete Power BI project file (including Power Query steps).
 * `Data/`: The original and refined survey dataset.
-* `Screenshots/`: Visual documentation of the project.
+* `Screenshots_and_Outputs/`: Visual documentation of the project.
 
 ## 🚀 How to Explore
 1. Clone the repo.
