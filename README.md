@@ -8,7 +8,7 @@ This project is a technical demonstration of end-to-end data analysis. The focus
 ## 🖼️ Dashboard Preview
 The final report features dynamic filtering and KPI tracking for a global view of the data industry.
 
-![Main Dashboard](./Screenshots and Outputs/main_report.png)
+![Main Dashboard](./Screenshots_and_Outputs/main_report.png)
 *Figure 1: Final Interactive Dashboard showing global career insights.*
 
 ---
@@ -22,7 +22,7 @@ The raw survey data contained many inconsistencies. I performed the following re
 * **Geospatial Correction:** Cleaned country names to ensure 100% accuracy in map visualizations.
 * **Handling Nulls:** Applied logic to manage missing values without compromising the integrity of the survey results.
 
-![Data Table View](./Screenshots and Outputs/table_view.png)
+![Data Table View](./Screenshots_and_Outputs/table_view.png)
 *Figure 2: Table View showing the cleaned and structured data after transformation.*
 
 ### 2. Modeling & Analytics
